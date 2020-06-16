@@ -56,4 +56,4 @@ function mapStateToProps(state) {
   };
 }
 
-export default MessageForm;
+export default connect(mapStateToProps, mapDispatchToProps)(MessageForm);
